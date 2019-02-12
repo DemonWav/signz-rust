@@ -1,0 +1,17 @@
+[package]
+name = "signz"
+version = "0.1.0"
+authors = ["Kyle Wood <demonwav@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "signz"
+crate-type = ["dylib"]
+
+[dependencies]
+libc = "0.2.0"
+regex = "1"
+lazy_static = "1.2.0"
+
+[build-dependencies]
+bindgen = "0.42.2"
